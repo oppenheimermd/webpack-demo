@@ -1,0 +1,22 @@
+$primary-colour: red;
+$background-colour:#C6C6C6;
+
+@font-face{
+    font-family: 'Poppins';
+    src: url('../src/fonts/Poppins-Medium.ttf') format('ttf'),
+        url('../src/fonts/Poppins-Regular.ttf') format('ttf');
+    font-weight:400;/*400,500*/
+    font-style:normal;
+    font-size: 16px;
+}
+
+html{
+    background-color: $background-colour;
+    font-family: 'Poppins';
+}
+
+.hello {
+    color: $primary-colour;
+    background: url('../src/img/kuschall-wheelchair.jpg');
+    background-repeat: no-repeat;
+  }
